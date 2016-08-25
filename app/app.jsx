@@ -19,7 +19,8 @@ $(document).foundation();
 
 // to sie nazywa object distruscuring
 
-
+//app css
+require('style!css!applicationStyles');
 
 ReactDOM.render(
   <Router history={hashHistory}>
